@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Menú Digital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header Semántico -->
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/otras/logo.png" alt="Logo de la página" width="40" height="40">
+        </a>
+        <nav> 
+            <ul class="navbar">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="menu.html">MENÚ</a></li>
+                <li><a href="tienda.html">PRODUCTOS</a></li>
+                <li><a href="contacto.html" class="active">CONTACTO</a></li>
+                <li>
+                    <a href="carrito.html" aria-label="Ver Carrito">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Encabezado-->
+        <section class="page-header">
+            <h2>Contactanos</h2>
+            <p>Dejanos tu mensaje o consulta y te responderemos a la brevedad.</p>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section class="form-details section-p1">
+            <form action="https://formspree.io/f/mrpeqode" method="POST" class="contacto-form">
+                <span>ENVIANOS UN MENSAJE</span>
+                <h2>Nos encantaría saber de vos</h2>
+
+                <div class="campo-control">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+                </div>
+
+                <div class="campo-control">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+                </div>
+
+                <div class="campo-control">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+
+            <div class="contacto-info">
+                <h3>Información de Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Claromeco </p>
+                <p><i class="fas fa-phone-alt"></i> +54 11 12225452</p>
+                <p><i class="fas fa-envelope"></i> contacto@menudigital.com.ar</p>
+                <p><i class="fas fa-clock"></i> Lunes a Domingos: 11:00 a 23:00 hs</p>
+            </div>
+        </section>
+
+        <!-- Sección  Mapa -->
+        <section class="seccion-mapa section-p1">
+            <h2>Ubicación de nuestro Local</h2>
+            <p>Visitanos en nuestro salón gastronómico</p>
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d209787.638233022!2d-58.18791254313965!3d-34.7573095802272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1791504832593!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+                    width="100%" 
+                    height="380" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> San Martin 3251, Claromeco</p>
+            <p><strong>Teléfono:</strong> +54 112236544</p>
+        </div>
+        <div class="col">
+            <h4>Navegación</h4>
+            <a href="../index.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="copyright">
+            <p>© 2026 Menú Digital | Proyecto Front-End </p>
+        </div>
+    </footer>
+
+</body>
+</html>

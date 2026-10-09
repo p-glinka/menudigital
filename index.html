@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digital - Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header & Navegación -->
+    <header class="header">
+        <a href="index.html" class="logo-link">
+            <img src="img/otras/logo.png" alt="Logo Menu Digi" width="40" height="40">
+        </a>
+        <nav> 
+            <ul class="navbar">
+                <li><a href="index.html" class="active">INICIO</a></li>
+                <li><a href="pages/menu.html">MENÚ</a></li>
+                <li><a href="pages/tienda.html">PRODUCTOS</a></li>
+                <li><a href="pages/contacto.html">CONTACTO</a></li>
+                <li>
+                    <a href="pages/carrito.html" aria-label="Ver Carrito">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h4>Sabor & Calidad</h4>
+                <h2>Cupones y Descuentos</h2>
+                <h1>Conocé Todos Nuestros Productos</h1>
+                <p>Aprovechá nuestras promociones exclusivas con envío directo.</p>
+                <a href="pages/contacto.html" class="btn-primary">Hacé tu pedido acá</a>
+            </div>
+        </section>
+
+        <!-- Sección Productos (Flexbox) -->
+        <section class="section-productos section-p1">
+            <h2>A un Click De Tus Comidas Más Ricas</h2>
+            <p>Menú Digi: Todo lo que necesitás escaneando el código QR.</p>
+            
+            <div class="productos-container">
+                <article class="producto">
+                    <img src="img/productos/bebida1.webp" alt="Cerveza Artesanal">
+                    <div class="producto-descripcion">
+                        <span>Bebidas</span>
+                        <h5>Cerveza Artesanal Patagónica</h5>
+                        <h4>$17.000,99</h4>
+                    </div>
+                    <button class="btn-card"><i class="fas fa-cart-plus"></i> Agregar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/productos/empanada.webp" alt="Empanadas">
+                    <div class="producto-descripcion">
+                        <span>Empanadas</span>
+                        <h5>Empanadas de Carne a Cuchillo</h5>
+                        <h4>$23.000,00</h4>
+                    </div>
+                    <button class="btn-card"><i class="fas fa-cart-plus"></i> Agregar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/productos/ensalada0.webp" alt="Ensalada Caesar">
+                    <div class="producto-descripcion">
+                        <span>Ensaladas</span>
+                        <h5>Ensalada Caesar</h5>
+                        <h4>$26.000,00</h4>
+                    </div>
+                    <button class="btn-card"><i class="fas fa-cart-plus"></i> Agregar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/productos/ensalada1.webp" alt="Ensalada Griega">
+                    <div class="producto-descripcion">
+                        <span>Ensaladas</span>
+                        <h5>Ensalada Griega</h5>
+                        <h4>$14.000,00</h4>
+                    </div>
+                    <button class="btn-card"><i class="fas fa-cart-plus"></i> Agregar</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Banner Promocional -->
+        <section class="banner section-m1">
+            <h4>Ofertas de la Semana</h4>
+            <h2>Hasta <span>30% OFF</span> en Combos Familiares</h2>
+            <button class="btn-banner">Ver Promociones</button>
+        </section>
+
+        <!-- Sección Reseñas (Grid) -->
+        <section class="section-resenias section-p1">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p>Opiniones reales de comensales satisfechos</p>
+            
+            <div class="resenias-container">
+                <article class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente calidad y llegó en tiempo récord. Las empanadas estaban calientes y bien sazonadas. ¡Volveré a pedir!"</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/1.png" alt="Laura M.">
+                        <div>
+                            <h5>Laura M.</h5>
+                            <span>Buenos Aires</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Muy buena atención y la navegación del menú digital es súper intuitiva. La ensalada Caesar estuvo deliciosa."</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/3.png" alt="Carlos R.">
+                        <div>
+                            <h5>Carlos R.</h5>
+                            <span>Córdoba</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente variedad en la carta y precios acordes a la porción. Muy recomendable para pedir en reuniones."</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/2.png" alt="Valentina S.">
+                        <div>
+                            <h5>Valentina S.</h5>
+                            <span>Rosario</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section-p1">
+            <div class="newstext">
+                <h4>Suscribite al Newsletter</h4>
+                <p>Recibí novedades del menú y <span>descuentos exclusivos</span></p>
+            </div>
+            <form class="form-newsletter" action="https://formspree.io/f/tu-id-formspree" method="POST">
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirme</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> San Martin 3251, Claromeco</p>
+            <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
+            <p><strong>Horario:</strong> 11:00 - 23:00, Lunes a Domingo</p>
+            <div class="follow">
+                <h4>Seguinos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Navegación</h4>
+            <a href="index.html">Inicio</a>
+            <a href="pages/menu.html">Menú</a>
+            <a href="pages/tienda.html">Productos</a>
+            <a href="pages/contacto.html">Contacto</a>
+        </div>
+
+        <div class="col">
+            <h4>Medios de Pago</h4>
+            <p>Aceptamos tarjetas de crédito, débito y transferencias.</p>
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 Menú Digital | Proyecto Front-End </p>
+        </div>
+    </footer>
+
+</body>
+</html>
